@@ -1,0 +1,39 @@
+body{
+	background: url(bunting-flag.png);
+}
+
+.photo {
+	background: #d9dabb; 
+	width: 400px; 
+	margin: 0 5px 10px 0; 
+	padding: 10px 0; 
+	text-align: center; 
+	display: inline-block; 
+}
+img {
+	border: 2px solid #8b8e4b; 
+}
+p {
+	margin: 1; 
+}
+.photo{
+    box-shadow: 7px 7px 5px rgba(0,0,0,0.6); 
+    padding: 10px; 
+    border-radius: 10px; 
+    background: #eeece0; 
+   }
+p{
+	font-size: 22px;
+}
+.btn{
+	display: inline-block; 
+    background: #8C959D; 
+    color: #fff; 
+    padding: 1rem 1.5rem; 
+    text-decoration: none; 
+    border-radius: 6px;
+    margin: 27px 5px 10px 0; 
+}
+.bton{
+	font-size: 26px;
+}

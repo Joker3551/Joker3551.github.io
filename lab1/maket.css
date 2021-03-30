@@ -1,0 +1,73 @@
+body {
+	background: url(bicycles.png);
+	opacity: 2;
+}
+
+body:after{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: black;
+	opacity: 0.2;
+	z-index: 1;
+}
+.content{
+	position: relative;
+	color: white;
+	z-index: 2;
+}
+
+
+h1 {
+	color: white;
+	text-align: center;
+
+}
+
+h2{
+	color: white;
+}
+
+p {
+	color:black;
+	font-family: Trebuchet MS;
+	font-size: 20px;
+	overflow: auto;
+	background: lightgray;
+	border-style: inset;
+	border-width: 2px
+	opacity: 0.3;
+}
+.b2{
+	height: 150px;
+	overflow: auto;
+}
+
+
+div{
+	overflow: auto;
+
+}
+
+table{
+
+	border-width: 1px
+}
+
+.b1{border-style: outset;background: lightgray;}
+
+a{
+	
+}
+
+.btn{
+	display: inline-block; 
+    background: #8C959D; 
+    color: #fff; 
+    padding: 1rem 1.5rem; 
+    text-decoration: none; 
+    border-radius: 6px; 
+}
